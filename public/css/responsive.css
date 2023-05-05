@@ -1,0 +1,16 @@
+/*For device: tablet, mobile*/
+/*Min -> 320px -> 768px ->992px -> 1024px -> 1200 -> Max*/
+
+
+@media only screen and (max-width: 767px) {
+	.site-mobile-menu li, .menu-mega-dropdown[class^="mega-col-"]{
+		position:relative !important
+	}
+	footer .widget{ margin-bottom:30px; }
+}
+
+
+@media only screen and (max-width: 500px) {
+	
+}
+

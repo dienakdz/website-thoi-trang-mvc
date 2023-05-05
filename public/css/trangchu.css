@@ -1,0 +1,262 @@
+/* slide css */
+.nav_icon{
+    color:#958D8D;
+    position:relative;
+    top:  15%;
+    transform: translate(-50%);
+    font-size: 30px;
+    opacity: 0;
+}
+.fa-angle-double-left{
+    left: 30px;
+}
+.fa-angle-double-right{
+    right: 30px;
+}
+.owl-carousel:hover .nav_icon{
+    opacity: 1;
+    transition: 1s;
+}
+.nav_icon:hover{
+    color:  #E7F453;
+}
+.item_slidequangcao{
+    width: 100%;
+    height: 300px;
+}
+/* end slide */
+
+.background_xam{
+  position: relative;
+  display: block;
+  background-color: #E6E8DD;
+  border-radius: 5px;
+  /* padding: 0px; */
+  margin:  5% 3%;
+}
+.vien_box{
+  padding: 10px;
+  /* box-shadow: 0 5px 10px rgba(0,0,0,.8); */
+  border-radius: 5px;
+  height: 430px;
+}
+.vien_box:hover{
+  box-shadow: 0 5px 10px rgba(0,0,0,.8);
+  transform: scale(1.01);
+}
+.vien_trang{
+  background-color: white;
+  margin-bottom: 5%;
+}
+.giamgia{
+z-index: 1;
+padding: 3%;
+position: absolute;
+display: block;
+top: 8px;
+left: 6px;
+width: 50px;
+height: 50px;
+font-size: 18px;
+border-radius: 50px;
+text-align: center;
+color: white;
+
+background-color: #0F8C05;
+transition: 0.3s;
+opacity: 0.7;
+}
+.giamgiamoi{
+font-family: inherit;
+z-index: 1;
+position: absolute;
+display: block;
+padding: 3%;
+top: 76px;
+left: 6px;
+width: 50px;
+height: 50px;
+font-size: 18px;
+border-radius: 50px;
+text-align: center;
+color: white;
+opacity: 0.9;
+background-color: #0F8C05;
+    
+}
+  .giamgiahot{
+  font-family: inherit;
+  z-index: 1;
+  position: absolute;
+  display: block;
+  padding: 3%;
+  top: 76px;
+  left: 6px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+  opacity: 0.9;
+  background-color: #DC0B0B;
+      
+  }
+
+.sanpham{
+  background-color:#E6E8DD ;
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 0px;
+  /* font-size: 18px; */
+  border-radius: 0px;
+  width: 100%;
+  height: 300px;
+
+ /*  transition: 10s;
+  opacity: 0.9; */
+
+}
+.vitrianh{
+
+  width: 100%;
+  height: 300px;
+
+}
+.text_sanpham{
+  text-align: center;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+}
+.btn_add_giohang{
+  text-align: center;
+  position: absolute;
+  display: none;
+}
+.vien_box:hover .btn_add_giohang {
+  display: block;
+}
+
+.btn_add{
+
+  left: 3%;
+  position: relative;
+  display: block;
+  text-align: center;
+  background-color: #6AEF86;
+  color: white;
+  transition: 0.6s;
+  flex: start;
+}
+
+.anh_chinh{
+  position: relative;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+}
+.anh_chinh:hover .sanpham{
+  display: block;
+}
+.text{
+  text-align: center;
+}
+.gia_sanpham{
+    font-family: inherit;
+    font-size: 15px;
+    color: #5BE045;
+}
+.lienhe{
+  width: 100px;
+}
+
+.item_cardtintuc{
+  height: 100%;
+  /* display: block; */
+}
+.card_tintuc{
+  padding: 0%;
+  font-family: inherit;
+  align-items: center;
+  margin-right: 2%;
+  
+}
+.card_tintuc:hover{
+  box-shadow: 0 5px 10px rgba(0,0,0,.8);
+
+  
+}
+.img_tintuc{
+  border-radius: 5px;
+  position: relative;
+  height: 320px;
+}
+.img_tintuc:hover{
+  transform: scale(1.01);
+}
+.btn-primary{
+  border-radius: 5px;
+  text-align: center;
+  width: 120px;
+  /* align-items: center; */
+  left: 30%;
+  background-color:white  ;
+  color: #6AEF86;
+}
+.btn-primary:hover{
+  background-color: #F3F2F2;
+  color: #6AEF86;
+}
+.day_tintuc{
+
+  font-family: inherit;
+  z-index: 1;
+  position: absolute;
+  display: block;
+  padding: 3%;
+  top: 5%;
+  left: 10%;
+  width: 60px;
+  height: 70px;
+  font-size: 18px;
+  /* border-radius: 50px; */
+  text-align: center;
+  color: black;
+  /* opacity: 0.9; */
+  background-color: white;
+      
+  }
+  .card-text{
+    text-align: center;
+    height: ;
+  }
+  .title_card{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    height: 120px;
+  }
+
+.logo_cuoitrangchu{
+  color: rgba(129,129,129,.2);
+  border: solid 1px; 
+}
+
+.item_logo{
+width: 200px;
+filter:grayscale(100%);
+}
+.item_logo:hover{
+  filter:none;
+}
+.logo_size{
+  background-color: #8C8B8B;
+  color: #8C8B8B;
+  width: 100%;
+  height: 100%;
+}

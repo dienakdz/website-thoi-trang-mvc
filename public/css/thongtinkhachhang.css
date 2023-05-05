@@ -1,0 +1,16 @@
+.margin_row{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    border-radius: 10px;
+}
+.background_xam{
+    background-color: #E1DFDF;
+}
+.btn_ttkh{
+    background-color: #83b735;
+    color: white;
+}
+.btn_ttkh:hover{
+   background-color: #5F8F18;
+   color: white;
+}

@@ -1,0 +1,165 @@
+
+.text_black_indam{
+    font-weight: 700;
+    color: black;
+}
+
+.anh_listao{
+    width: 90%;
+    height: 70px;
+}
+.list_sp{
+    margin-top: 3%;
+    padding-bottom: 10px;
+    /* background-color: #EDE8E8; */
+}
+.width_hr{
+    width: 100%;
+}
+.vitrimenu{
+ display: flex;
+  justify-content: center;
+
+}
+.color_menu{
+    background-color: #4CE732;
+    color: white;
+}
+
+./* thiết lập style cho thẻ a */
+ .pagination a {
+    text-align: center;
+   color: black;
+   /* padding: 8px 16px; */
+   width: 30px;
+   background-color: #ddd;
+
+   
+   transition: background-color .3s;
+ }
+/* thiết lập style cho class active */
+ .pagination a.active {
+   background-color: #03bd63;
+   color: white;
+   text-align: center;
+
+ }
+/* thêm màu nền khi người dùng hover vào class không active */
+ .pagination a:hover:not(.active) {
+   background-color: #ddd;
+
+ }
+
+ .chinh_menu{
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+    margin: 1%;
+   background-color: #ddd;
+   text-align: center;
+ }
+
+ /* spham-ao */
+ .form-add-ao{
+
+ }
+.form-add-ao label{
+
+    font-weight: 600;
+    color: #625B5B;
+    font-family: inherit;
+    font-size: 130%;
+
+}
+.form-add-ao input{
+        border-radius: 7px;
+        border-color: #A5A8A4;
+        width: 90%;
+}
+.form-add-ao input:hover{
+    border-color: #BEEC9D;
+}
+.form-add-ao button{
+ display: flex;
+  justify-content: center;
+background-color: #4CF44C;
+color: white;
+border-radius: 7px;
+margin: 3%;
+}
+.form-add-ao button:hover{
+
+background-color:#0B6A09;
+color: white;
+
+}
+.form-add-ao select{
+     border-radius: 7px;
+    border-color: #A5A8A4;
+    width: 43%;
+    text-align: center;
+
+    font-weight: 600;
+    color: #625B5B;
+    font-family: inherit;
+    font-size: 130%;
+}
+.pointer {cursor: pointer;}
+.travel-budget {
+    margin-top: 1rem;
+}
+.travel-budget h3{
+    margin: 0;
+    color: #333;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.price_filter{
+    margin-top: .9rem;
+}
+.price_filter .ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all {
+    background:  #d7d7d7;
+    border: medium none;
+    border-radius: 0;
+    height: 6px;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+}
+.price_filter .ui-slider-handle.ui-state-default.ui-corner-all {
+    background: #03bd63 none repeat scroll 0 0;
+    border: 0px solid #03bd63;
+    border-radius:50%;
+    height: 12px;
+    width: 12px;
+    outline: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+.price_filter .ui-slider-range {background: #03bd63 none repeat scroll 0 0;}
+.price_slider_amount > input[type="text"] {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #333;
+    height: 30px;
+    /* text-align: center; */
+    width: 280px;
+    border: none !important;;
+    font-family: 'Poppins', sans-serif;
+}
+.price_slider_amount label {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+.price_slider_amount > input[type="text"]:focus {outline: 0}
+.price_slider_amount > input[type="submit"] {outline: 0;}
+.price_slider_amount {letter-spacing: 2px;}
+.price_slider_amount > input[type="submit"] {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,65 @@
+#googleMap{width: 100%;}
+.googleMap-info,.contact-details{position:relative;}
+#googleMap{height:480px;}
+.map-info {
+	left: 50%;
+	margin-left: -42px;
+	position: absolute;
+	top: 38%;
+}
+.map-info strong {
+	text-transform: uppercase;
+	display: block;
+	font-weight: 800;
+	color: #14b83d;
+	font-size: 16px;
+}
+	.about-text > p {margin-top: 25px;font-size: 15px;}
+.about-text > li{font-size: 25px;}
+.single-member {
+	position: relative;
+	transition: all 0.5s ease 0s;
+}
+.single-member:hover .share-member {
+    opacity: 1;
+    top: 50%;
+}
+.single-member:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+.single-member .member-img{
+    background: #fff none repeat scroll 0 0;
+}
+.share-member {padding: 20px 0;}
+.member-title > h4 {
+	font-family: "Lato",serif;
+    font-size: 16px;
+    font-weight: 550;
+    margin-bottom: 15px;
+}
+.share-member {
+	margin-top: -45px;
+	opacity: 0;
+	position: absolute;
+	top: 100%;
+	transition: all 0.3s ease 0s;
+	width: 100%;
+}
+.single-member:hover .share-member {
+    opacity: 1;
+    top: 50%;
+}
+.share-member {background:#fff;}
+.member-btn > a {
+    font-size: 16px;
+    padding: 0 5px;
+}
+.member-btn > a:hover {color: #1da528;}
+.member-btn > a,.pagnation-ul a{
+    color: #999;
+}
+.member-img img{
+	width: 354px;
+	height: 472px;
+}

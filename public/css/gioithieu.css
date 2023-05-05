@@ -1,0 +1,84 @@
+.card .card-img{
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+}
+.profile-img{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -11rem;
+    z-index: 999;
+    border: 1rem solid #ebeef8;
+}
+.social-media{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    margin-top: 1.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.social-media i{
+    font-size: 2rem;
+    transition: color .5s;
+}
+
+.fa-facebook-square{
+    color: #3b5999;
+}
+.fa-twitter-square{
+    color: #55acee;
+}
+.fa-instagram{
+    color: #e6683c;
+}
+.fa-google-plus-square{
+    color: #dd4b39;
+}
+
+
+
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-instagram:hover,
+.fa-google-plus-square:hover{
+  } 
+
+.job-title{
+    color: #777;
+    font-size: 0.5rem;
+    font-weight: 300;
+
+}
+.about{
+    margin-right: 5%;
+    margin-left: 5%;
+   text-align: center;
+    font-style: italic;
+    text-align: center;
+    color: #333;
+}
+.btn_gioithieu{
+    border-radius: 7%;
+    background-color: #5BE045;
+}
+.card_gioithieu{
+    background-color: #ebeef8;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    box-shadow: .5rem .5rem 3rem rgba(0, 0, 0, 0.2);
+}
+.card_gioithieu:hover{
+    transition: 1s;
+    transform: scale(1.05);
+}

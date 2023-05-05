@@ -1,0 +1,228 @@
+/*Your custom css*/
+.menu-mega-dropdown{
+	position:relative !important;
+}.menu-mega-dropdown[class^="mega-col-"] { 
+	position:static !important;
+}
+
+
+@media only screen and (min-width: 768px) {
+	.menu-mega-dropdown .sub-menu-dropdown{
+		width:240px;
+	}.menu-mega-dropdown.mega-col-2 .sub-menu-dropdown{
+		width:480px;
+	}.menu-mega-dropdown.mega-col-3 .sub-menu-dropdown{
+		width:720px;
+	}.menu-mega-dropdown.mega-col-4 .sub-menu-dropdown{
+		width:960px;
+	}	
+}
+
+
+.menu-mega-dropdown[class^="mega-col-"] .sub-sub-menu.sub-dep-0 > li{
+	float:left;
+	width:50%;
+	margin-bottom:20px;
+}.menu-mega-dropdown.mega-col-3 .sub-sub-menu.sub-dep-0 > li{
+	width:33.333333%;
+}.menu-mega-dropdown.mega-col-4 .sub-sub-menu.sub-dep-0 > li{
+	width:25%;
+}
+
+.menu-mega-dropdown[class^="mega-col-"] .sub-sub-menu.sub-dep-0 > li > a .nav-link-text{
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.main-nav-style li a{
+	text-transform:uppercase;
+}
+
+.home .main-page-wrapper{
+	padding-top:0;
+}
+
+.meta-post-categories>a{
+	color:#fff !important;
+}
+
+.woodmart-products-tabs .products-tabs-title li{ margin-bottom:0; }
+
+#wle-home-slider .cs-slides a{
+    background: #83b735;
+    color: #fff;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.wle-tabs:not(.active){ display:none; }
+
+.wle-upper, .woodmart-title-container.title{ text-transform:uppercase; }
+
+#halink_vn_homepage_content .woodmart-title-container.title{
+	display:flex;
+	align-items: stretch;
+	margin-bottom:30px;
+}#halink_vn_homepage_content .woodmart-title-container.title:before,
+#halink_vn_homepage_content .woodmart-title-container.title:after{
+	flex-grow: 1;
+	background:#83b735;
+	content:"";
+	height:1px;
+	margin-top:16px;
+}#halink_vn_homepage_content .woodmart-title-container.title:before{
+	margin-right:10px;
+}#halink_vn_homepage_content .woodmart-title-container.title:after{
+	margin-left:10px;
+}#halink_vn_homepage_content .woodmart-title-container.title.noline:before,
+#halink_vn_homepage_content .woodmart-title-container.title.noline:after{
+	visibility:hidden;
+}
+
+.woocommerce span.product-label{
+	min-height:50px;
+	min-width: 50px;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    word-break: break-all;
+    letter-spacing: .4px;
+    font-weight: 600;
+    line-height: 1.2;
+	position:static;
+	margin-bottom: 10px;
+}
+.woocommerce span.onsale{
+    background-color: #83b735;
+}
+
+#halink_vn_homepage_content .widget{ margin:0; padding-bottom:0; }
+#halink_vn_homepage_content .widget.halink_home_product_tabs,
+#halink_vn_homepage_content .widget.halink_home_post_slider{
+	padding-top:30px;
+	padding-bottom:30px; 
+}
+
+.wle-form-home form{
+	position:relative;
+}.wle-form-home .wpcf7-submit{
+	position: absolute;
+    right: 0;
+    top: 0;
+}.wle-form-home form p{
+	margin-bottom:0;
+}
+
+.woocommerce-breadcrumb a:after{
+	display:none;
+}
+
+/*.woocommerce nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span{
+	font-size:initial;
+	line-height:34px;
+    padding: 0 10px;
+}.woocommerce nav.woocommerce-pagination .next.page-numbers{
+	font-size:0;
+}.woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current{
+	background: #83b735;
+	color:#fff;
+}.woocommerce nav.woocommerce-pagination{
+	margin-top:30px;
+}*/
+
+.product-image-summary .cart .quantity input[type=number]{
+	border: 2px solid rgba(129,129,129,.2);
+}
+.woocommerce nav.woocommerce-pagination{
+	text-align:center;
+}
+
+.product-image-summary-wrap .onsale{ display:none; }
+
+.nav-links .page-numbers {
+    display: inline-block;
+    box-sizing: content-box;
+    margin-right: 2px;
+    min-width: 32px;
+    height: 34px;
+    color: #2d2a2a;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 34px;
+    transition: all .2s ease;
+}.nav-links .page-numbers.current{
+	background-color: #83b735;
+	color: #FFF;
+    font-weight: 600;
+}
+
+.navigation.pagination .page-numbers.next:after{
+	content:"Â»";
+}
+
+.navigation.pagination .page-numbers.prev:after{
+	content:"Â«";
+}
+.navigation.pagination .screen-reader-text{
+	display:none;
+}
+.navigation.pagination .page-numbers .icon{
+	width:11px;
+	height:11px;
+	color: #fff;
+	fill:#fff;
+}
+
+.woocommerce-account:not(.logged-in) .entry-content .woocommerce{
+	max-width:470px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.infos-contact{
+	margin-bottom:20px;
+}.infos-contact .icon{
+	margin:0 10px;
+}
+
+.site-mobile-menu li a {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    min-height: 50px;
+    border-bottom: 1px solid rgba(129,129,129,.2);
+    color: #2d2a2a;
+    text-transform: uppercase;
+    letter-spacing: .2px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.3;
+}
+
+.site-mobile-menu .sub-sub-menu li a {
+    color: #777;
+    text-transform: none;
+    font-size: 14px;
+	padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer .widget{ 
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+.footer-container {
+    background-color: #f3f3f3;
+}
+.woodmart-logo-wrap img {
+    padding: 10px;
+    max-width: 220px !important;
+}

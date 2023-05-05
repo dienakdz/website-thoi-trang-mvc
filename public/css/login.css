@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+:root{
+    /*===== Colores =====*/
+    --first-color: #9D4BFF;
+    --first-color-dark: #23004D;
+    --first-color-light: #A49EAC;
+    --first-color-lighten: #F2F2F2;
+
+    /*===== Font and typography =====*/
+    --body-font: 'Open Sans', sans-serif;
+    --h1-font-size: 1.5rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+}
+
+@media screen and (min-width: 768px){
+    :root{
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    }
+}
+
+/*===== BASE =====*/
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+/*===== LOGIN =====*/
+.login{
+    display: grid;
+    grid-template-columns: 100%;
+    height: 100vh;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.login__content{
+    display: grid;
+}
+
+.login__img{
+    justify-self: center;
+}
+
+.login__img img{
+    width: 310px;
+    margin-top: 1.5rem;
+}
+
+.login__forms{
+    position: relative;
+    height: 368px;
+}
+
+.login__registre, .login__create{
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    background-color: var(--first-color-lighten);
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(35,0,77,.2);
+    animation-duration: .4s;
+    animation-name: animate-login;
+}
+
+@keyframes animate-login{
+    0%{
+    transform: scale(1,1);
+    }
+    50%{
+    transform: scale(1.1,1.1);
+    }
+    100%{
+    transform: scale(1,1);
+    }
+}
+
+.login__title{
+    font-size: var(--h1-font-size);
+    margin-bottom: 2rem;
+}
+
+.login__box{
+    position: relative;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: .5rem;
+    padding: .8rem .6rem;
+    background-color: #FFF;
+    margin: 1rem 0;
+    border-radius: .5rem;
+}
+
+.login__icon{
+    font-size: 1.5rem;
+    color: var(--first-color);
+}
+
+.login__input{
+    border: none;
+    outline: none;
+    font-size: var(--normal-font-size);
+    font-weight: 700;
+    color: var(--first-color-dark);
+}
+
+.login__input::placeholder{
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+    color: var(--first-color-light);
+}
+
+.login__forgot{
+    display: block;
+    width: max-content;
+    margin-left: auto;
+    margin-top: .5rem;
+    font-size: var(--small-font-size);
+    font-weight: 600;
+    color: var(--first-color-light);
+}
+
+.login__button{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin: .5rem 0;
+    /* background-color: var(--first-color); */
+        background-color: #83b735;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    border-radius: .5rem;
+    transition: .3s;
+}
+
+.login__button:hover{
+   background-color: #5F8F18;
+}
+
+.login__account, .login__signin, .login__signup{
+    font-weight: 600;
+    font-size: var(--small-font-size);
+}
+
+.login__account{
+    color: var(--first-color-dark);
+}
+
+.login__signin, .login__signup{
+    color: var(--first-color);
+    cursor: pointer;
+}
+
+.login__social{
+    margin-top: 2rem;
+}
+
+.login__social-icon{
+    font-size: 1.5rem;
+    color: var(--first-color-dark);
+    margin: 0 1.5rem;
+}
+
+/*Show login*/
+.block{
+    display: block;
+}
+
+/*Hidden login*/
+.none{
+    display: none;
+}
+
+/* ===== MEDIA QUERIES =====*/
+@media screen and (min-width: 576px){
+    .login__forms{
+    width: 348px;
+    justify-self: center;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .login{
+    height: 100vh;
+    overflow: hidden;
+    }
+
+    .login__content{
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+    }
+
+    .login__img{
+    display: flex;
+    width: 600px;
+    height: 588px;
+    background-color: var(--first-color-lighten);
+    border-radius: 1rem;
+    padding-left: 1rem;
+    }
+
+    .login__img img{
+    width: 390px;
+    margin-top: 0;
+    }
+
+    .login__registre, .login__create{
+    left: -11rem;
+    }
+
+    .login__registre{
+    bottom: -2rem;
+    }
+
+    .login__create{
+    bottom: -5.5rem;
+    }
+    
+}
+    .form-input {
+    border: 2px solid transparent;
+    width: 100%;
+    position: relative;
+    color: #000000;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+    text-transform: none;
+    transition: border 0.3s ease-in-out;
+    }
+    
+    .form-input::placeholder {
+    color:  #999999;
+    }
+
+    .form-input-icon {
+    position: absolute;
+    font-size: 1.5rem;
+    right: 10px;
+    top: 10px;
+    transform: scale(0);
+    transition: transform 0.3s ease-in-out;
+    }
+    
+    .form-input-icon.err {
+    color: #c0392b;
+    }
+    
+    .form-input-icon.success {
+    color: #27ae60;
+    }
+    
+    .login__box.err .form-input-icon.err,
+    .login__box.success .form-input-icon.success {
+    transform: scale(1);
+    }
+    .form-input-err-msg {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 10px;
+    color: #c0392b;
+    }
+
+/* đơn mua */
+.orders_product, .orders_product__items {
+display: flex;
+}
+.orders_name {
+width: 27.03811%;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+align-items: center;
+position: relative;
+flex-direction: column;
+}
+.orders_product {
+width: 22.03811%;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+align-items: center;
+position: relative;
+flex-direction: column;
+}
+
+
+.orders_quantity {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 10.4265%;
+}
+.orders_price {
+flex-direction: column;
+width: 26.88022%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.orders_delete {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 12.70417%;
+text-transform: capitalize;
+}
+.orders_item_name {
+color: rgba(0,0,0,.8);
+width: 23.27949%;
+text-align: center;
+}
+.orders_item_product {
+color: rgba(0,0,0,.8);
+width: 45.27949%;
+text-align: center;
+}
+.orders_item_price {
+width: 15.88022%;
+text-align: center;
+}
+.orders_item_quantity {
+width: 13.4265%;
+text-align: center;
+}
+.orders_item_total {
+width: 25.43557%;
+text-align: center;
+}
+.orders_item_thaotac {
+width: 12.70417%;
+text-align: center;
+}
+.orders_btn{
+    background-color: #1f48ff;
+    color: white;
+
+}
+.orders_btn:hover{
+    background-color: #0F8C05;
+    color: white;
+}
